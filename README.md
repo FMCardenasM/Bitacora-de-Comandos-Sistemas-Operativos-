@@ -26,13 +26,13 @@
 | ls | Muestra los archivos o carpetas | ![image](https://user-images.githubusercontent.com/114049206/205990193-61f00b9f-feee-49a9-afa4-feb74018d387.png) |
 | ls > “nombre de archivo”.txt | Sirve para copiar el contenido de un comando a un archivo de texto | ![image](https://user-images.githubusercontent.com/114049206/205990797-f5207d41-7ca9-4a8a-a7d0-648ba4191c25.png) |
 | ls > nombre del archivo a crear.txt | Me permite copiar la lista de contenidos de un directorio y crear un nuevo archivo de texto | ![image](https://user-images.githubusercontent.com/114049206/205991075-24373c38-4a39-42ac-b7fc-14f272f4d7a9.png) |
-| man | Es para abrir un manual para entender como usar los comandos, se debe usar man y luego el nombre del comando a revisar |  |
-| mkdir | Crea carpetas/directorios nuevos |  |
-| mkdir -p cadena /estructura de directorios | Para crear mas de un directorio (carpetas) con sub directorios (sub carpetas) adentro |  |
-| more + el nombre de un archivo de texto | Nos imprime el contenido del archivo en pantalla, hace lo mismo que el comando cat y el nombre del archivo, la diferencia es que more nos permite ver archivos que son muy largos |  |
-| mv | Comando para mover archivos, se coloca mv luego el nombre del archivo a mover y de ultimo el nombre de la carpeta a donde queremos mover el archivo con un slash al final para indicar que es una carpeta |  |
-| nano | Crea documentos, editor de texto en consola |  |
-| pacman -s | Se usa para instalar aplicaciones o paquetes en Manjaro |  |
+| man | Es para abrir un manual para entender como usar los comandos, se debe usar man y luego el nombre del comando a revisar | man cd |
+| mkdir | Crea carpetas/directorios nuevos | mkdir carpeta |
+| mkdir -p cadena /estructura de directorios | Para crear mas de un directorio (carpetas) con sub directorios (sub carpetas) adentro | ![image](https://user-images.githubusercontent.com/114049206/205991603-85eac8c7-f070-4251-b04c-ad594c73f760.png) |
+| more + el nombre de un archivo de texto | Nos imprime el contenido del archivo en pantalla, hace lo mismo que el comando cat y el nombre del archivo, la diferencia es que more nos permite ver archivos que son muy largos | ![image](https://user-images.githubusercontent.com/114049206/205991753-890931b8-d7f1-447b-ab78-d91707f4577f.png) |
+| mv | Comando para mover archivos, se coloca mv luego el nombre del archivo a mover y de ultimo el nombre de la carpeta a donde queremos mover el archivo con un slash al final para indicar que es una carpeta | mv copiaHome.txt Documents/ |
+| nano | Crea documentos, editor de texto en consola | ![image](https://user-images.githubusercontent.com/114049206/205992010-b22c0aff-7ed8-4c50-9f02-92a688658afb.png) |
+| pacman -s | Se usa para instalar aplicaciones o paquetes en Manjaro | sudo pacman -S neofetch |
 | ping | Conexión de dos dispositivos | ping 10.8.0.5 |
 | ps -aux | Es un visualizador de procesos |  |
 | pstree | Nos muestra los procesos como un árbol |  |
