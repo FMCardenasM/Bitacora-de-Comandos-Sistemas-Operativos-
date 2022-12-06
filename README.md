@@ -72,6 +72,6 @@
 |docker start	| Inicia los contenedores	| ![image](https://user-images.githubusercontent.com/114049206/205998194-c8a43d1f-2976-4df1-9110-be49b736e316.png) |
 |docker container exec ls	| Ejecutar un comando en el contenedor | docker exec ubuntudock cat /etc/hosts |
 |docker run -d --name nombre imagen	| Ponerle nombre al contenedor | docker run -d --name miubuntu ubuntu |
-|docker attach CONTAINER	| Entrar a la terminal de un docker	|  |
+|docker attach nombre contenedor	| Entrar a la terminal de un docker	| ![image](https://user-images.githubusercontent.com/114049206/205998682-5bfa01e4-1086-4c17-97a1-0a1ab9885b6a.png) |
 |docker run -d -p host:contenedor imagen	| Asignar un puerto al contenedor | docker run -d -p 80:40 ubuntu |
 |docker run -d -P imagen	| Puerto random | docker run -d -P ubuntu |
