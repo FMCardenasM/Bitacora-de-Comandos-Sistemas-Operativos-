@@ -61,17 +61,17 @@
 |Comando         |Descripción                                                          |Ejemplo        |
 |----------------|---------------------------------------------------------------------|---------------|
 | docker build | Crea una imagen a partir de un archivo tipo docker |	 |
-|docker images|	Imagenes instaladas	|  |
-|docker run	| Corre una imagen	docker run ubuntu |  |
-|docker ps	| Instancias detenidas o en ejecución	|  |
-|docker stop	| Detiene una instancia	sudo docker stop 124f |  |
-|docker rm	| Elimina una instancia	docker rm ubuntudock |  |
-|docker rmi	| Elimina la imagen	docker rmi ubuntu ubuntu |  |
-|docker pull	| Descargar una imagen	docker pull manjaro |  |
+|docker images|	Imagenes instaladas	| ![image](https://user-images.githubusercontent.com/114049206/205997336-a52b268d-2602-45e4-be96-45ead8a92261.png) |
+|docker run	| Corre una imagen | docker run ubuntu |
+|docker ps	| Instancias detenidas o en ejecución	| ![image](https://user-images.githubusercontent.com/114049206/205997256-e6f37c91-44ca-4d3b-b858-80d0c02be92f.png) |
+|docker stop	| Detiene una instancia | sudo docker stop d9b100f2f636|
+|docker rm	| Elimina una instancia | docker rm ubuntudoc |
+|docker rmi	| Elimina la imagen | docker rmi ubuntu ubuntu |
+|docker pull	| Descargar una imagen | docker pull ubuntu  |
 |docker container ls -a	| Lista los contenedores	|  |
-|docker start	| Inicia los contenedores	|  |
-|docker container exec ls	| Ejecutar un comando en el contenedor	docker exec ubuntudock cat /etc/hosts |  |
-|docker run -d --name nombre imagen	| Ponerle nombre al contenedor	docker run -d --name dockersito ubuntu |  |
+|docker start	| Inicia los contenedores	| ![image](https://user-images.githubusercontent.com/114049206/205998194-c8a43d1f-2976-4df1-9110-be49b736e316.png) |
+|docker container exec ls	| Ejecutar un comando en el contenedor | docker exec ubuntudock cat /etc/hosts |
+|docker run -d --name nombre imagen	| Ponerle nombre al contenedor | docker run -d --name miubuntu ubuntu |
 |docker attach CONTAINER	| Entrar a la terminal de un docker	|  |
-|docker run -d -p host:contenedor imagen	| Asignar un puerto al contenedor	docker run -d -p 80:40 archlinux |  |
-|docker run -d -P imagen	| Puerto random	docker run -d -P manjaro |  |
+|docker run -d -p host:contenedor imagen	| Asignar un puerto al contenedor | docker run -d -p 80:40 ubuntu |
+|docker run -d -P imagen	| Puerto random | docker run -d -P ubuntu |
