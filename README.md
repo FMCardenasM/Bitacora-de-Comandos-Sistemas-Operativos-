@@ -34,25 +34,25 @@
 | nano | Crea documentos, editor de texto en consola | ![image](https://user-images.githubusercontent.com/114049206/205992010-b22c0aff-7ed8-4c50-9f02-92a688658afb.png) |
 | pacman -s | Se usa para instalar aplicaciones o paquetes en Manjaro | sudo pacman -S neofetch |
 | ping | Conexión de dos dispositivos | ping 10.8.0.5 |
-| ps -aux | Es un visualizador de procesos |  |
-| pstree | Nos muestra los procesos como un árbol |  |
-| pwd | Muestra la ruta de un archivo, carpeta, o donde uno esta posicionado |  |
-| q | Nos sirve para salir de un comando que ejecuté |  |
-| rm | Sirve para eliminar archivos, se usa rm y el nombre del archivo |  |
-| rm -r | Para remover carpetas, se debe usar el rm -r y luego el nombre de la carpeta |  |
-| su – y el nombre de usuario | Para cambiar de usuario |  |
-| sudo | Permite ejecutar cualquier programa como administrador en ubuntu |  |
-| sudo apt update | Comando para refrescar los paquetes del sistema |  |
-| sudo apt upgrade | Comando para actualizar el sistema |  |
-| sudo dpkg -i y el nombre del archivo .deb | Este comando nos permite instalar archivos .deb que no se encuentran en los repositorios de Ubuntu |  |
-| sudo passwd y el nombre de un usuario | Nos permite cambiar la clave de un usuario |  |
-| sudo su | Nos permite cambiarnos al usuario ROOT |  |
-| tail -n | “N” es donde colocamos el número de líneas que queremos mostrar y el nombre del archivo |  |
-| top | Para ver el Controlador de Procesos desde la terminal |  |
+| ps -aux | Es un visualizador de procesos | ![image](https://user-images.githubusercontent.com/114049206/205992558-7eb9ddf8-bce0-453d-80d0-d32e31472532.png) |
+| pstree | Nos muestra los procesos como un árbol | ![image](https://user-images.githubusercontent.com/114049206/205992662-efb86b35-be1b-4b26-b396-1b03b112b43b.png) |
+| pwd | Muestra la ruta de un archivo, carpeta, o donde uno esta posicionado | ![image](https://user-images.githubusercontent.com/114049206/205992708-36812cce-5115-4770-b5fe-9498886bae63.png) |
+| q | Nos sirve para salir de un comando que ejecuté | Ejecutar htop, luego presion la tecla **q** para salir |
+| rm | Sirve para eliminar archivos, se usa rm y el nombre del archivo | rm prueba.txt |
+| rm -r | Para remover carpetas, se debe usar el rm -r y luego el nombre de la carpeta | rm -r carpeta/ |
+| su – y el nombre de usuario | Para cambiar de usuario | ![image](https://user-images.githubusercontent.com/114049206/205993160-dade3f45-3bed-40c7-8e91-8d43059de4ed.png) |
+| sudo | Permite ejecutar cualquier programa como administrador en ubuntu | sudo apt install neofetch |
+| sudo apt update | Comando para refrescar los paquetes del sistema | ![image](https://user-images.githubusercontent.com/114049206/205993385-27458ea0-15e6-4e0e-829d-a5049e9671a3.png) |
+| sudo apt upgrade | Comando para actualizar el sistema | ![image](https://user-images.githubusercontent.com/114049206/205993619-6d39d029-c9c6-4d80-a01e-5dc138f8bc74.png) |
+| sudo dpkg -i y el nombre del archivo .deb | Este comando nos permite instalar archivos .deb que no se encuentran en los repositorios de Ubuntu | ![image](https://user-images.githubusercontent.com/114049206/205993907-f21f9ebc-0d79-4700-8283-f7e10f73a5dd.png) |
+| sudo passwd y el nombre de un usuario | Nos permite cambiar la clave de un usuario | sudo passwd fcardenasm904 |
+| sudo su | Nos permite cambiarnos al usuario ROOT | ![image](https://user-images.githubusercontent.com/114049206/205994075-09c7edbd-0813-49ab-b32d-a851f710fd24.png) |
+| tail -n | “N” es donde colocamos el número de líneas que queremos mostrar y el nombre del archivo | ![image](https://user-images.githubusercontent.com/114049206/205994237-736a3d1c-4bd3-4e85-b26e-0cb92dcc3d71.png) |
+| top | Para ver el Controlador de Procesos desde la terminal | ![image](https://user-images.githubusercontent.com/114049206/205994346-f5b2505b-9742-4e71-a5f6-c516b2fa9b98.png) |
 | wc | Contar datos | sudo ls /var/spool/squid/00 "pipe" wc |
 | unzip / tar -xvf | Descomprimir archivos | unzip mini.zip / tar -xvf carpeta.tar.gz |
 | wget | Descargar archivos de una pagina web | wget https://manjaro.org/download/ |
-| whoami | Nos dice el usuario en el que estamos conectados |  |
+| whoami | Nos dice el usuario en el que estamos conectados | ![image](https://user-images.githubusercontent.com/114049206/205994437-dfd9e23f-1d6c-436c-9d47-6d38b78bcfba.png) |
 | zip / tar -czvf | Comprimir archivos | zip mini.zip archivo.txt / tar -czvf carpeta.tar.gz archivo2.txt |
 ## Notas: 
 - En algunos casos se escribió "pipe" y "asterisco" porque al intentar colocar el símbolo me daba error en la tabla o me cambiana el formato
