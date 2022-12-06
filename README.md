@@ -15,17 +15,17 @@
 | find | Sirve para buscar archivos dentro de los directorios según el tipo de extensión del archivo | find . -name “asterisco.extension del archivo que queremos buscar (ejem .jpg, .txt, .png, etc)” |
 | find -delete | Borra todos los archivos con la extensión indicada en el comando | find . -name “asterisco.extension del archivo que queremos buscar (ejem .jpg, .txt, .png, etc)” -delete |
 | find y cp combinados | Se utiliza para copiar múltiples archivos a un directorio o carpeta a la vez | find -name 'asterisco.log ó .txt' -exec cp -t ~/nombre del directorio o carpeta/ {} + |
-| free – h | Me muestra los datos de la memoria RAM y del SWAP |  |
-| grep | Permite buscar en o directorios ciertas palabras o formato |  |
-| head -n | Colocamos el número de líneas que queremos mostrar y el nombre del archivo |  |
-| history | Nos muestra el historial de los comandos que hemos usado |  |
-| history "pipe (no agrego el pipe porque me da error en la tabla)" grep y el nombre de un comando | Nos muestra cuantas veces hemos usado ese comando |  |
-| htop | Es otro controlador de procesos, pero más interactivo visualmente |  |
-| ip a | Nos permite ver la dirección IP de la máquina |  |
-| kill | Sirve para cerrar tareas o aplicaciones abiertas desde la terminal, se usa el comando kill -9 y el process ID |  |
-| ls | Muestra los archivos o carpetas |  |
-| ls > “nombre de archivo”.txt | Sirve para copiar el contenido de un comando a un archivo de texto |  |
-| ls > nombre del archivo a crear.txt | Me permite copiar la lista de contenidos de un directorio y crear un nuevo archivo de texto |  |
+| free – h | Me muestra los datos de la memoria RAM y del SWAP | ![image](https://user-images.githubusercontent.com/114049206/205989326-2df061ad-ab71-4c56-a9a8-c5813007b4f9.png) |
+| grep -n| Permite buscar en o directorios ciertas palabras o formato | ![image](https://user-images.githubusercontent.com/114049206/205989441-7a9d99b4-d4af-4b60-b405-3125e932f8a2.png) |
+| head -n | Colocamos el número de líneas que queremos mostrar y el nombre del archivo | ![image](https://user-images.githubusercontent.com/114049206/205989552-fcbb7a83-e9fa-4bdf-a19a-1b1e3853a98f.png) |
+| history | Nos muestra el historial de los comandos que hemos usado | ![image](https://user-images.githubusercontent.com/114049206/205989639-bc38a12b-5816-4f00-922b-1140c445f9f4.png) |
+| history "pipe (no agrego el pipe porque me da error en la tabla)" grep y el nombre de un comando | Nos muestra cuantas veces hemos usado ese comando | ![image](https://user-images.githubusercontent.com/114049206/205989918-74f62c48-fd41-475f-9cb4-45d863dfffa1.png) |
+| htop | Es otro controlador de procesos, pero más interactivo visualmente | ![image](https://user-images.githubusercontent.com/114049206/205989989-ac396689-d17d-405a-a9ce-f973303d52ae.png) |
+| ip a | Nos permite ver la dirección IP de la máquina | ![image](https://user-images.githubusercontent.com/114049206/205990064-223ceb48-7f25-47b8-ae1e-d59b233dd212.png) |
+| kill | Sirve para cerrar tareas o aplicaciones abiertas desde la terminal | Se usa el comando kill -9 y el process ID |
+| ls | Muestra los archivos o carpetas | ![image](https://user-images.githubusercontent.com/114049206/205990193-61f00b9f-feee-49a9-afa4-feb74018d387.png) |
+| ls > “nombre de archivo”.txt | Sirve para copiar el contenido de un comando a un archivo de texto | ![image](https://user-images.githubusercontent.com/114049206/205990797-f5207d41-7ca9-4a8a-a7d0-648ba4191c25.png) |
+| ls > nombre del archivo a crear.txt | Me permite copiar la lista de contenidos de un directorio y crear un nuevo archivo de texto | ![image](https://user-images.githubusercontent.com/114049206/205991075-24373c38-4a39-42ac-b7fc-14f272f4d7a9.png) |
 | man | Es para abrir un manual para entender como usar los comandos, se debe usar man y luego el nombre del comando a revisar |  |
 | mkdir | Crea carpetas/directorios nuevos |  |
 | mkdir -p cadena /estructura de directorios | Para crear mas de un directorio (carpetas) con sub directorios (sub carpetas) adentro |  |
