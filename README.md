@@ -5,16 +5,16 @@
 | cat | Imprime el contenido del archivo, se utiliza para visualizar el contenido de un archivo  | cat prueba.txt |
 | cd | Cambiar directorio o cambiar a otra carpeta, se coloca cd y el nombre de la carpeta | cd carpeta1/ |
 | cd .. | Se usa para regresar a la carpeta interior | Antes= fcardenas@ubuntu:-/carpeta1/carpeta$ cd .. Después= fcardenas@ubuntu:-/carpeta1$ |
-| chmod | Para asignar o quitar permisos a directorios o archivos |  |
+| chmod | Para asignar o quitar permisos a directorios o archivos | chmod 700 nombre_archivo |
 | chown | Para asignar propietarios a carpetas o archivos | chown fcardenasm904 archivo.txt |
 | clear | Para limpiar la ventana de la terminal | Después de leer el contenido de un archivo con el comando cat, se utiliza "clear" para limpiar la terminal |
-| cp | Comando para copiar archivos, se coloca cp luego el nombre del archivo a copiar y luego el nuevo nombre del archivo |  |
-| df -ht | Permite ver los dispositivos instaladas en el sistema |  |
+| cp | Comando para copiar archivos, se coloca cp luego el nombre del archivo a copiar y luego el nuevo nombre del archivo | cp [Origen] [Destino] |
+| df -h | Permite ver los dispositivos instaladas en el sistema | ![image](https://user-images.githubusercontent.com/114049206/205988502-890c0ec7-c449-4b80-bf2b-99193c27a332.png) |
 | echo -/carpeta1 -/carpeta2 | xargs -n 1 cp -n nombre del archivo a copiar.txt | Sirve para copiar 1 archivo a más de una carpeta |  |
 | exit | Nos permite regresarnos al usuario original |  |
-| find . -name “*.extension del archivo que queremos buscar (ejem .jpg, .txt, .png, etc)” | Sirve para buscar archivos dentro de los directorios según el tipo de extensión del archivo |  |
-| find . -name “*.extension del archivo que queremos buscar (ejem .jpg, .txt, .png, etc)” -delete | Borra todos los archivos con la extensión indicada en el comando |  |
-| find -name '*.log ó .txt' -exec cp -t ~/nombre del directorio o carpeta/ {} + | Se utiliza para copiar múltiples archivos a un directorio o carpeta a la vez |  |
+| find . -name “asterisco.extension del archivo que queremos buscar (ejem .jpg, .txt, .png, etc)” | Sirve para buscar archivos dentro de los directorios según el tipo de extensión del archivo |  |
+| find . -name “asterisco.extension del archivo que queremos buscar (ejem .jpg, .txt, .png, etc)” -delete | Borra todos los archivos con la extensión indicada en el comando |  |
+| find -name 'asterisco.log ó .txt' -exec cp -t ~/nombre del directorio o carpeta/ {} + | Se utiliza para copiar múltiples archivos a un directorio o carpeta a la vez |  |
 | free – h | Me muestra los datos de la memoria RAM y del SWAP |  |
 | grep | Permite buscar en o directorios ciertas palabras o formato |  |
 | head -n | Colocamos el número de líneas que queremos mostrar y el nombre del archivo |  |
@@ -55,7 +55,7 @@
 | whoami | Nos dice el usuario en el que estamos conectados |  |
 | zip / tar -czvf | Comprimir archivos | zip mini.zip archivo.txt / tar -czvf carpeta.tar.gz archivo2.txt |
 ## Notas: 
-- En algunos casos se escribió "pipe" porque al intentar colocar el símbolo me daba error en la tabla
+- En algunos casos se escribió "pipe" y "asterisco" porque al intentar colocar el símbolo me daba error en la tabla o me cambiana el formato
 - En otros casos se agregó un símbolo de - en lugar ~ porque subyara la línea
 ## Comandos DOCKER
 |Comando         |Descripción                                                          |Ejemplo        |
